@@ -20,4 +20,7 @@
 
     *based on: https://www.microsoft.com/net/core#windowscmd* 
 
+# Structure of the example
+- **hello-world.csproj** is used by .Net Core as a definion of the project containing the application. In this case, it simply says this is a console application.
+- **Program.cs** (and any **.cs** file) is where the code for the program is written.
 
