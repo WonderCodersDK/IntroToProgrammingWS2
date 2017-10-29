@@ -25,7 +25,8 @@ In **labs** are a few exercises to try on your own
 # Some more resources
 ## Algorithms
 - [The Economist](https://www.economist.com/blogs/economist-explains/2017/08/economist-explains-24)
-- [A bit of history](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193) including [where the term comes from](http://cs-exhibitions.uni-klu.ac.at/index.php?id=340)
+- [Futurism](https://futurism.com/images/what-are-algorithms/)
+- [A long version of history](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193)
 - [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms) including a short course on algortihms
 - [Wikipedia](https://en.wikipedia.org/wiki/Algorithm)
 - well, you can check google for more
