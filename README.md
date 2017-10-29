@@ -1,5 +1,10 @@
-# IntroToProgrammingWS2
-The repository for the introduction to programming workshop using .net core and visual studio code
+# Overview
+The repository for the introduction to programming workshop using .Net Core 2 and Visual Studio Code.
+.Net Core is the platform (called "framework") that we will use for learning about programming. .Net Core consists of:
+- a **runtime**. Loosely speaking, you can think about it as a program that executes other, your programs.
+- a **base class library (BCL)** i.e. this is standard functionality that makes it easier for you to build more complex programs. For example, you don't need to write how to find the smaller of 2 numbers or to sort a list of names alphabetically - such functionality is already written, is included in the BCL and you can just use it.
+
+We will use the **C# programming language**.
 
 # Installation instructions
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
