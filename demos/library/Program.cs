@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace library
 {
+    /*
+     * Task 1: What additionally can we add to a library
+     * Task 2: How can we update the library so that it is possible to rent books
+     */
     class Program
     {
         static void Main(string[] args)
