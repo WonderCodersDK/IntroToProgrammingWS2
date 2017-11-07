@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace library
+namespace bookstore
 {
     /*
      * Task 1: What additionally can we add to a library
@@ -31,9 +31,9 @@ namespace library
             books.Add(book1);
             books.Add(book2);
 
-            var library = new Library(books);
+            var bookstore = new Bookstore(books);
 
-            Console.WriteLine(library.ToString());
+            Console.WriteLine(bookstore.ToString());
         }
     }
 }

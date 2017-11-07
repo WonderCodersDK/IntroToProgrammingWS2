@@ -1,18 +1,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace library
+namespace bookstore
 {
-    public class Library 
+    public class Bookstore
     {
         public List<Book> Books;
 
-        public Library()
+        public Bookstore()
         {
             Books = new List<Book>();
         }
 
-        public Library(List<Book> books) {
+        public Bookstore(List<Book> books) {
             Books = books;
         }
 

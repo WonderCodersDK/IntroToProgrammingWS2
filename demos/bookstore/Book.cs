@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace library
+namespace bookstore
 {
     public class Book
     {

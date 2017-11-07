@@ -1,4 +1,4 @@
-namespace library
+namespace bookstore
 {
     public class Genre
     {
