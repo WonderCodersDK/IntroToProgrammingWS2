@@ -28,18 +28,18 @@ namespace classes
             Longtitude = 0.0;
         }
 
-        public Address(string street, int zipCode, string city, double lattitude, double longtitude)
+        public Address(string street, int zipCode, string city, double latitude, double longtitude)
         {
             Street = street;
             ZipCode = zipCode;
             City = city;
-            Latitude = lattitude;
+            Latitude = latitude;
             Longtitude = longtitude;
         }
 
-        public void SetCoordinates(double lattitude, double longtitude) 
+        public void SetCoordinates(double latitude, double longtitude) 
         {
-            Latitude = lattitude;
+            Latitude = latitude;
             Longtitude = longtitude;
         }
 
