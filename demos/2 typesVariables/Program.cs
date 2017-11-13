@@ -8,22 +8,22 @@ namespace typesVariables
         {
             // integer
             int number1 = 1;
-            Console.WriteLine("Example of integer is " + number1);
+            //Console.WriteLine("Example of integer is " + number1);
 
             // double
-            double number2 = 1.23;
-            Console.WriteLine("Example of double is " + number2);
+            double number2 = 1.00;
+            //Console.WriteLine("Example of double is " + number2);
 
             // string
-            string text = "Hello World";
-            Console.WriteLine("Our small program says " + text);
+            string text = "Hello World. We are prinbting more text";
+            //Console.WriteLine("Our small program says " + text);
 
             // boolean
-            bool def = true;
-            Console.WriteLine("A true statement is always " + def);
+            bool def = false;
+            //Console.WriteLine("A true statement is always " + def);
 
             // operations + - * /
-            Console.WriteLine("2 + 2 = " + (2+2));
+            Console.WriteLine("2 + 2 = " + ("2"+(2+2)));
             Console.WriteLine("2 - 2 = " + (2-2));
             Console.WriteLine("2 * 2 = " + (2*2));
             Console.WriteLine("2 / 2 = " + (2/2));

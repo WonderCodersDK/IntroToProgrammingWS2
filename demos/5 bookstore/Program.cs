@@ -8,15 +8,11 @@ namespace bookstore
         static void Main(string[] args)
         {
             // Genres
-            var fantasy = new Genre("Fantasy");
-            var adventure = new Genre("Adventure");
+            ///var fantasy = new Genre("Fantasy");
+            //var adventure = new Genre("Adventure");
 
-            var genres1 = new List<Genre>();
-            genres1.Add(fantasy);
-
-            var genres2 = new List<Genre>();
-            genres2.Add(fantasy);
-            genres2.Add(adventure);
+            //var genres1 = new List<Genre>();
+            //genres1.Add(fantasy);
 
             // Books
             var book1 = new Book(1, "Harry Potter", "J. K. Rowling", genres1, 5.00);

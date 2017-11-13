@@ -5,29 +5,29 @@ namespace bookstore
     public class Book
     {
         #region Properties
-        public long Number;
+        public int YearOfPublish;
         public string Title;
         public string Author;
-        public List<Genre> Genres;
         public double Price;
+        public string Publisher;
         #endregion
 
         #region Constructors
         public Book()
         {
-            Number = 0;
+            YearOfPublish = 0;
             Price = 0.00;
-            Title = string.Empty;
-            Author = string.Empty;
-            Genres = new List<Genre>();  
+            Title = "";
+            Author = "Unknown";
+            Publisher = "Unknown";  
         }
 
-        public Book(long number, string title, string author, List<Genre> genres, double price) 
+        public Book(int year, string title, string author, string publisher, double price) 
         {
-            Number = number;
+            YearOfPublish = year;
             Title = title;
             Author = author;
-            Genres = genres;
+            Publisher= publisher;
             Price = price;
         }
         #endregion

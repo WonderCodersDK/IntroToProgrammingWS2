@@ -6,7 +6,7 @@ namespace classes
     {
         static void Main(string[] args)
         {
-            var address = new Address("Weidekampsgade 8", 2300, "København");
+            Address address = new Address("Weidekampsgade 8", 2300, "København");
 
             address.SetCoordinates(55.667536, 12.583309);
             

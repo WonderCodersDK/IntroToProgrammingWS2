@@ -7,31 +7,32 @@ namespace functions
         static void Main(string[] args)
         {
             // concatenate two strings
-            ConcatenateWithSpace("We are about to", "create a bookstore!!!");
+            //ConcatenateWithSpace("We just created 11", "a bookstore!!!");
 
             // Math.Pow
-            var power = Power(3, 2);
-            Console.WriteLine(power);
+            //var power = Power(243, 5, 3);
+            //Console.WriteLine(power);
 
             // check if number is bigger then another one
-            var greaterThan = IsGreaterThan(7, 5);
+            var greaterThan = IsGreaterThan(5, 5);
             Console.WriteLine(greaterThan);
         }
 
         public static void ConcatenateWithSpace(string str1, string str2)
         {
-            var str3 = str1 + " " + str2;
+            var str3 = str1 + " " + str2 + " hello :)";
             
             Console.WriteLine(str3);
         }
 
-        public static int Power(int number, int power) 
+        public static int Power(int number, int power, int divisor) 
         {
             var result = number;
 
-            for (int i = 1; i < power; i++)
+            for (int i = power; i > 1; i = i - 1)
             {
-                result = result * number;
+                Console.WriteLine(i + " " + result);
+                result = result / divisor;
             }
 
             return result;
@@ -39,6 +40,7 @@ namespace functions
 
         public static bool IsGreaterThan(int num1, int num2) 
         {
+            // > >= < <= == != 
             return num1 > num2;
         }
     }
